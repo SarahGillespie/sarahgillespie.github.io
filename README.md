@@ -1,6 +1,6 @@
 # Sarah Elizabeth Gillespie's personal homepage
 
-[Homepage Link](https://sarahgillespie.github.io/sarah-gillespie-homepage/)  
+[Homepage Link](https://sarahgillespie.github.io/)
 
 ## Project Objective
 
