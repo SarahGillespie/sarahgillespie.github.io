@@ -22,7 +22,7 @@ HIGHLIGHT_GROUPS = [
     {
         "label": "Birdwatching Locations",
         "color": "#4a6741",   # forest green
-        "countries": ["Canada", "United States of America", "Japan", "Germany", "Denmark", "Sweden", "Netherlands"],
+        "countries": ["Canada", "United States of America", "Japan", "Germany", "Denmark", "Sweden", "Netherlands", "United Kingdom"],
     },
     # Add more groups as needed, e.g.:
     # {
