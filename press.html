@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="News coverage of Sarah Elizabeth Gillespie's research on connected cars, AI voice services, and social robots" />
+    <meta name="author" content="Sarah Elizabeth Gillespie" />
+    <title>Press - Sarah Elizabeth Gillespie</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/blog.css" rel="stylesheet" />
+
+    <style>
+      /* Colors inherit from the page so dark mode keeps working */
+      .press-intro { max-width: 46rem; }
+
+      .press-group { margin-top: 2.5rem; }
+      .press-group h3 { font-size: 1.3rem; margin-bottom: 0.25rem; }
+      .press-group .paper-meta { opacity: 0.7; font-size: 0.95rem; margin-bottom: 1rem; }
+
+      .press-list { list-style: none; padding: 0; margin: 0; }
+      .press-list li {
+        display: grid;
+        grid-template-columns: 11rem 1fr auto;
+        gap: 0.25rem 1.25rem;
+        align-items: baseline;
+        padding: 0.7rem 0;
+        border-top: 1px solid rgba(128, 128, 128, 0.3);
+      }
+      .press-list li:last-child { border-bottom: 1px solid rgba(128, 128, 128, 0.3); }
+
+      .press-outlet { font-weight: 600; }
+      .press-date { opacity: 0.7; font-size: 0.9rem; white-space: nowrap; }
+      .press-tag {
+        display: inline-block;
+        margin-left: 0.5rem;
+        padding: 0 0.45rem;
+        font-size: 0.75rem;
+        border: 1px solid currentColor;
+        border-radius: 0.6rem;
+        opacity: 0.75;
+        vertical-align: middle;
+      }
+
+      .press-also { display: block; font-size: 0.85rem; opacity: 0.75; margin-top: 0.15rem; }
+      .press-subhead { font-size: 1rem; font-weight: 600; margin: 1.75rem 0 0.5rem; opacity: 0.85; }
+      .press-list a:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+
+      @media (max-width: 640px) {
+        .press-list li { grid-template-columns: 1fr auto; }
+        .press-outlet { grid-column: 1 / -1; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="blog-header py-3">
+        <div class="row align-items-center">
+          <div class="col">
+            <h1><a href="index.html" style="color: inherit; text-decoration: none">Sarah Elizabeth Gillespie</a></h1>
+          </div>
+          <div class="col-auto">
+            <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">Dark Mode</button>
+          </div>
+        </div>
+      </header>
+
+      <div style="padding: 0 20px">
+        <div class="nav-scroller py-1 mb-2">
+          <nav class="nav d-flex justify-content-between">
+            <a class="p-2 link-secondary" href="index.html#about-me">About Me</a>
+            <a class="p-2 link-secondary" href="index.html#news">News</a>
+            <a class="p-2 link-secondary" href="index.html#publications">Publications</a>
+            <a class="p-2 link-secondary" href="press.html">Press</a>
+            <a class="p-2 link-secondary" href="birdwatching.html">Birdwatching Adventures</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <main class="container">
+      <hr class="my-4" />
+      <h2>Press</h2>
+      <p class="press-intro">
+        News coverage of my research, grouped by paper. The interviews
+        include conversations with me and my co-authors.
+      </p>
+
+      <!-- ===== Automatic Transmission ===== -->
+      <section class="press-group" id="automatic-transmission">
+        <h3>
+          <a href="https://sarahgillespie.github.io/documents/AutomaticTransmission.pdf" target="_blank">
+            Automatic Transmission: An Empirical Study of Data Privacy in the Connected Vehicle Ecosystem
+          </a>
+        </h3>
+        <p class="paper-meta">IMC 2026</p>
+
+        <h4 class="press-subhead">Interviews</h4>
+        <ul class="press-list">
+          <li>
+            <span class="press-outlet">Consumer Reports</span>
+            <span>
+              <a href="https://www.consumerreports.org/electronics/personal-information/your-car-is-sharing-data-with-big-tech-companies-study-finds-a4474820962/" target="_blank">Your Car Is Sharing Data With Big Tech Companies, Study Finds</a>
+              <span class="press-tag">Interview</span>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">The Verge</span>
+            <span>
+              <a href="https://www.theverge.com/transportation/1001463/car-data-privacy-northeastern-study-honda-gm-ford" target="_blank">Your car’s data privacy problems are worse than you think</a>
+              <span class="press-tag">Interview</span>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Northeastern Global News</span>
+            <span>
+              <a href="https://news.northeastern.edu/2026/09/29/connected-car-privacy-violation-research/" target="_blank">Your car is collecting more data about you than you think</a>
+              <span class="press-tag">Interview</span>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">IEEE Spectrum</span>
+            <span>
+              <a href="https://spectrum.ieee.org/connected-cars-security" target="_blank">These Engineers Are Cleaning Up Connected Cars’ Security Flaws</a>
+              <span class="press-tag">Interview</span>
+            </span>
+            <span class="press-date">Nov 2026</span>
+          </li>
+        </ul>
+        <h4 class="press-subhead">Coverage</h4>
+        <ul class="press-list">
+          <li>
+            <span class="press-outlet">Axios</span>
+            <span>
+              <a href="https://www.axios.com/2026/11/04/your-cars-ai-assistant-could-be-a-privacy-nightmare" target="_blank">Your car’s AI assistant could be a privacy nightmare</a>
+            </span>
+            <span class="press-date">Nov 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Schneier on Security</span>
+            <span>
+              <a href="https://www.schneier.com/blog/archives/2026/10/connected-cars-are-a-surveillance-platform.html" target="_blank">Connected Cars Are a Surveillance Platform</a>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Yahoo Autos</span>
+            <span>
+              <a href="https://autos.yahoo.com/policy-and-environment/articles/northeastern-study-catches-connected-cars-141000185.html" target="_blank">Northeastern Study Catches Connected Cars and Their Apps Feeding Driver Data to Ad Tech</a>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Help Net Security</span>
+            <span>
+              <a href="https://www.helpnetsecurity.com/2026/10/01/connected-car-apps-privacy-research/" target="_blank">Some car apps are slipping owners’ data to big tech companies</a>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">SlashGear</span>
+            <span>
+              <a href="https://www.slashgear.com/2276276/new-car-data-sharing-study-northeastern-university/" target="_blank">New Cars Are Spying on You – Here’s What Researchers Found</a>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Entrepreneur</span>
+            <span>
+              <a href="https://www.entrepreneur.com/business-news/your-car-is-spying-on-you-a-new-study-shows" target="_blank">Your Car Is Spying on You. A New Study Shows Just Who It’s Telling Your Secrets To.</a>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Motor1.com</span>
+            <span>
+              <a href="https://www.motor1.com/news/810451/connected-cars-share-driver-data/" target="_blank">Your New Car Is Sharing Your Personal Data. Without You Knowing</a>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Jalopnik</span>
+            <span>
+              <a href="https://www.jalopnik.com/2275228/car-spreading-info-security-data-consent-consumer-reports-northeastern-university-study/" target="_blank">Your Car Is Probably Spreading Your Info To Advertisers And Other Third Parties Without Your Knowledge Or Consent</a>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Repairer Driven News</span>
+            <span>
+              <a href="https://www.repairerdrivennews.com/2026/10/05/northeastern-study-highlights-pii-risk-with-vehicles-that-are-smartphones-on-wheels/" target="_blank">Northeastern study highlights PII risk with vehicles that are ‘smartphones on wheels’</a>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Unilad Tech</span>
+            <span>
+              <a href="https://www.uniladtech.com/vehicles/car-news/car-spying-sharing-information-with-big-tech-456229-20261002" target="_blank">Your car could be spying on you and sharing what it knows with Big Tech</a>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Cybernews</span>
+            <span>
+              <a href="https://cybernews.com/security/connected-cars-big-tech-data-privacy-concerns/" target="_blank">Modern cars send data to advertisers and trackers, study finds</a>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Gigazine</span>
+            <span>
+              <a href="https://gigazine.net/gsc_news/en/20261002-car-data-privacy/" target="_blank">Tests of 21 of the latest cars revealed that almost all of them were sending data to third-party domains</a>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">XenoSpectrum</span>
+            <span>
+              <a href="https://xenospectrum.com/en/connected-car-app-privacy-vin-study/" target="_blank">Honda stops transmitting location data, revealing the link between “cars and owners” in connected car research</a>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Team-BHP</span>
+            <span>
+              <a href="https://www.team-bhp.com/news/connected-cars-and-data-privacy-where-exactly-our-data-going" target="_blank">Connected cars and data privacy: Where exactly is our data going?</a>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Tech AI Wire</span>
+            <span>
+              <a href="https://techaiwire.com/articles/connected-car-apps-share-driver-data-northeastern-study/" target="_blank">Connected car study: 28 of 30 car apps share driver data</a>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">HackingPassion.com</span>
+            <span>
+              <a href="https://hackingpassion.com/connected-cars-share-vin-with-trackers/" target="_blank">Connected Cars Talk to Google and Ad Trackers While Seven Car Apps Hand Over the Owner’s VIN</a>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">vietnam.vn</span>
+            <span>
+              <a href="https://www.vietnam.vn/en/o-to-co-the-am-tham-chia-se-du-lieu-ca-nhan-cua-chu-xe" target="_blank">Cars can silently share their owners’ personal data</a>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Ars Technica</span>
+            <span>
+              <a href="https://arstechnica.com/cars/2026/09/connected-car-data-privacy-is-still-abysmal-study-finds/" target="_blank">This study looks at how and with whom connected cars share your data</a>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">TechCrunch</span>
+            <span>
+              <a href="https://techcrunch.com/2026/09/29/your-car-and-its-mobile-app-are-probably-handing-over-all-kinds-of-data-to-tech-companies/" target="_blank">Your car and its mobile app are probably handing over all kinds of data to tech companies</a>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Road &amp; Track</span>
+            <span>
+              <a href="https://www.roadandtrack.com/news/a73941763/personal-data-vehicle-security-study/" target="_blank">19 Out of 21 Late-Model Cars Tested Shared Data With 3rd Parties, Including Big Tech Companies: Study</a>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">The Record</span>
+            <span>
+              <a href="https://therecord.media/automakers-routinely-share-connected-car-data-third-parties" target="_blank">Automakers routinely share personally identifiable connected-car data with third parties, report says</a>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">The Drive</span>
+            <span>
+              <a href="https://www.thedrive.com/news/your-car-is-sharing-more-private-data-than-your-smartphone-whos-getting-it" target="_blank">Your Car Is Sharing More Private Data Than Your Smartphone. Who’s Getting It?</a>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Malwarebytes</span>
+            <span>
+              <a href="https://www.malwarebytes.com/blog/news/2026/09/your-cars-app-could-be-telling-big-tech-who-you-are-and-where-you-go" target="_blank">Your car’s app could be telling Big Tech who you are and where you go</a>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">InsideEVs</span>
+            <span>
+              <a href="https://insideevs.com/news/810073/connected-cars-advertisers-send-data/" target="_blank">Connected Cars Share A Lot More Data With Companies Than Owners May Realize</a>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">AUTO Connected Car News</span>
+            <span>
+              <a href="https://www.autoconnectedcar.com/2026/09/study-of-data-privacy-in-the-connected-cars-shows-oem-apps-sharing-data/" target="_blank">Study of Data Privacy in the Connected Cars Shows OEM Apps Sharing Data</a>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">digwatch</span>
+            <span>
+              <a href="https://dig.watch/updates/study-maps-data-flows-connected-cars" target="_blank">Study maps data flows from connected cars to advertising and analytics services</a>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">all about COOKIES</span>
+            <span>
+              <a href="https://allaboutcookies.org/car-sharing-data-with-big-tech" target="_blank">Your Car Is Sharing Your Data With Google and Meta. Opting Out Might Break It</a>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Gokhshtein</span>
+            <span>
+              <a href="https://gokhshtein.com/news/2026-09-29-study-vehicle-apps-send-driver-data-to-tech-giants" target="_blank">Study: Vehicle Apps Send Driver Data to Tech Giants</a>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">iHeart</span>
+            <span>
+              <a href="https://www.iheart.com/content/2026-09-30-cars-feeding-data-to-tech-companies/" target="_blank">Cars Feeding Data To Tech Companies</a>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">FOX17, FOX13, NBC26</span>
+            <span>
+              <a href="https://www.fox17online.com/science-and-tech/data-privacy-and-cybersecurity/interactive-your-car-may-be-feeding-data-to-amazon-google-meta-and-microsoft" target="_blank">Interactive: Your car may be feeding data to Amazon, Google, Meta and Microsoft</a>
+              <span class="press-also">Also on
+                <a href="https://www.fox13now.com/science-and-tech/your-car-may-be-sharing-data-with-amazon-google-meta-and-microsoft" target="_blank">FOX13</a> and
+                <a href="https://www.nbc26.com/science-and-tech/data-privacy-and-cybersecurity/interactive-your-car-may-be-feeding-data-to-amazon-google-meta-and-microsoft" target="_blank">NBC26</a></span>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Hacker News</span>
+            <span>
+              <a href="https://news.ycombinator.com/item?id=49954882" target="_blank">Car is a smartphone on wheels. Here’s who’s listening</a>
+            </span>
+            <span class="press-date"></span>
+          </li>
+          <li>
+            <span class="press-outlet">Hacker News</span>
+            <span>
+              <a href="https://news.ycombinator.com/item?id=49926628" target="_blank">Discussion thread</a>
+            </span>
+            <span class="press-date"></span>
+          </li>
+        </ul>
+        <h4 class="press-subhead">International coverage</h4>
+        <ul class="press-list">
+          <li>
+            <span class="press-outlet">heise</span>
+            <span>
+              <a href="https://www.heise.de/news/Welche-Daten-senden-Autos-weiter-Forscher-untersuchen-21-Pkw-und-ihre-Apps-11472649.html" target="_blank" lang="de">So tracken uns unsere Autos: Studienergebnisse von 21 PKWs</a>
+              <span class="press-tag">German</span>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">scinexx</span>
+            <span>
+              <a href="https://www.scinexx.de/news/technik/wie-datenhungrig-sind-vernetzte-autos-und-ihre-apps-wirklich/" target="_blank" lang="de">Wie datenhungrig sind vernetzte Autos und ihre Apps wirklich?</a>
+              <span class="press-tag">German</span>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Wetterauer Zeitung</span>
+            <span>
+              <a href="https://www.wetterauer-zeitung.de/verbraucher/studie-zeigt-vernetzte-autos-geben-standort-und-fahrerdaten-an-drittfirmen-weiter-zr-94518092.html" target="_blank" lang="de">Studie zeigt: Vernetzte Autos geben Standort- und Fahrerdaten an Drittfirmen weiter</a>
+              <span class="press-tag">German</span>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Automobile Propre</span>
+            <span>
+              <a href="https://www.automobile-propre.com/articles/etude-quand-les-voitures-electriques-partagent-nos-donnees-avec-les-geants-de-la-tech/" target="_blank" lang="fr">Étude – Quand les voitures électriques partagent nos données avec les géants de la tech</a>
+              <span class="press-tag">French</span>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">PhonAndroid</span>
+            <span>
+              <a href="https://www.phonandroid.com/cette-etude-a-demasque-ce-que-votre-voiture-raconte-a-google-meta-et-amazon-sans-jamais-vous-prevenir.html" target="_blank" lang="fr">Cette étude a démasqué ce que votre voiture raconte à Google, Meta et Amazon sans jamais vous prévenir</a>
+              <span class="press-tag">French</span>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Quotidiano Motori</span>
+            <span>
+              <a href="https://www.quotidianomotori.com/automobili/auto-connesse-app-dati-tracker-studio/" target="_blank" lang="it">Auto connesse, 19 su 21 mandano dati a società esterne: e le app fanno peggio</a>
+              <span class="press-tag">Italian</span>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">motorbox</span>
+            <span>
+              <a href="https://www.motorbox.com/auto/magazine/auto-connesse-studio-utilizzo-dati-personali" target="_blank" lang="it">Auto connesse e privacy: uno studio rivela quali dati finiscono a Google, Amazon e Meta</a>
+              <span class="press-tag">Italian</span>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Libero</span>
+            <span>
+              <a href="https://www.libero.it/tecnologia/automobile-ascolta-ruba-dati-124437" target="_blank" lang="it">L’automobile ti ascolta e ti ruba i dati: ecco cosa succede quando stai guidando</a>
+              <span class="press-tag">Italian</span>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">infobae</span>
+            <span>
+              <a href="https://www.infobae.com/tecno/2026/09/30/un-estudio-detecto-que-casi-todas-las-apps-para-autos-envian-datos-privados-a-google-meta-y-microsoft/" target="_blank" lang="es">Un estudio detectó que casi todas las apps para autos envían datos privados a Google, Meta y Microsoft</a>
+              <span class="press-tag">Spanish</span>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">C5N</span>
+            <span>
+              <a href="https://www.c5n.com/tecnologia/aseguran-que-la-mayoria-las-aplicaciones-autos-comparten-datos-privados-google-meta-y-otras-empresas-n250388" target="_blank" lang="es">Aseguran que la mayoría las aplicaciones de autos comparten datos privados con Google, Meta y otras empresas</a>
+              <span class="press-tag">Spanish</span>
+            </span>
+            <span class="press-date">Sep 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Auto ao Minuto</span>
+            <span>
+              <a href="https://www.noticiasaominuto.com/auto/3060923/privacidade-em-causa-carros-estao-a-enviar-dados-a-terceiros" target="_blank" lang="pt">Privacidade em causa? Carros estão a enviar dados a terceiros</a>
+              <span class="press-tag">Portuguese</span>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">vrum</span>
+            <span>
+              <a href="https://www.vrum.com.br/aceleradas/2026/10/7512271-estudo-mostra-que-carros-novos-compartilham-dados-de-condutores.html" target="_blank" lang="pt">Estudo mostra que carros novos compartilham dados de condutores</a>
+              <span class="press-tag">Portuguese</span>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">DANTRI</span>
+            <span>
+              <a href="https://dantri.com.vn/o-to-xe-may/o-to-co-the-am-tham-chia-se-du-lieu-ca-nhan-cua-chu-xe-20261002014309997.htm" target="_blank" lang="vi">Ô tô có thể âm thầm chia sẻ dữ liệu cá nhân của chủ xe</a>
+              <span class="press-tag">Vietnamese</span>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">auto-online</span>
+            <span>
+              <a href="https://www.auto-online.com.tw/news/44743" target="_blank" lang="zh-Hant">你的新車正在分享你的個人資料，而你卻毫不知情</a>
+              <span class="press-tag">Chinese</span>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+          <li>
+            <span class="press-outlet">Reidas Official</span>
+            <span>
+              <a href="https://reidasofficial.lt/technologijos/automobiliu-duomenu-rinkimas-kam-siunciami/" target="_blank" lang="lt">Vairuotojai to nežino: automobilis siunčia jų duomenis toliau</a>
+              <span class="press-tag">Lithuanian</span>
+            </span>
+            <span class="press-date">Oct 2026</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- ===== Accent Bias ===== -->
+      <section class="press-group" id="accent-bias">
+        <h3>
+          <a href="https://sarahgillespie.github.io/documents/AccentBias.pdf" target="_blank">
+            “It’s not a representation of me”: Examining Accent Bias and Digital Exclusion in Synthetic AI Voice Services
+          </a>
+        </h3>
+        <p class="paper-meta">ACM FAccT 2025</p>
+
+        <ul class="press-list">
+          <li>
+            <span class="press-outlet">Wired</span>
+            <span><a href="https://www.wired.com/story/deutsche-telekom-elevenlabs-ai-phone-calls-mwc-2026/" target="_blank">Summon This AI Agent by Speaking Its Wake Word Mid-Phone Call</a></span>
+            <span class="press-date">Mar 2026</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Add another <section class="press-group"> for each paper that gets coverage -->
+    </main>
+
+    <footer class="blog-footer">
+      <p>
+        Sarah Gillespie's personal homepage: Contact via
+        <a href="https://www.linkedin.com/in/sarahg4567/" target="_blank">LinkedIn</a>
+        or <a href="mailto:gillespie.s@northeastern.edu">email</a>
+      </p>
+      <p><a href="#">Back to top</a></p>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
